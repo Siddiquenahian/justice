@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;800&family=Open+Sans&family=Poppins:wght@500&family=Work+Sans:wght@300;400&display=swap');
+
+body h1{
+    font-family: 'EB Garamond', serif;
+}
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+    background-color: #B68C5A !important;
+    border: #B68C5A !important;
+}
+i{
+    color: #B68C5A;
+}
+.banner{
+    background-image: url('../images/banner.png'),url('../images/Rectangle\ 5.png') !important;
+    background-blend-mode: multiply !important;
+    height: 75vh;
+    border-radius: 8px;
+    background-size: cover;
+}
+.banner p{
+    color: #E7E7E7 !important;
+}
+.carousel-item{
+    height: 75vh;
+    border-radius: 8px;
+    background-position: center !important;
+    background-size: cover !important;
+    background-blend-mode: multiply !important;
+    border-radius: 8px;
+}
+.carousel-item img{
+    width: 70px !important;
+    height: 70px !important;
+}
+.card img{
+    width: 40px !important;
+    height: 40px !important;
+}
+textarea{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.card-body{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 55px !important;
+    padding-bottom: 55px !important;
+    margin: 0;
+}
